@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D8D1D3C2396C3BD00BB8A18 /* Prathiph Messagerie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8D1D3B2396C3BD00BB8A18 /* Prathiph Messagerie.storyboard */; };
 		DC43916E2396B3E000BA9616 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC43916D2396B3E000BA9616 /* AppDelegate.swift */; };
 		DC4391702396B3E000BA9616 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC43916F2396B3E000BA9616 /* SceneDelegate.swift */; };
 		DC4391722396B3E000BA9616 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4391712396B3E000BA9616 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D8D1D3B2396C3BD00BB8A18 /* Prathiph Messagerie.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Prathiph Messagerie.storyboard"; sourceTree = "<group>"; };
 		DC43916A2396B3E000BA9616 /* ViensMeuf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViensMeuf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC43916D2396B3E000BA9616 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC43916F2396B3E000BA9616 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				DC43916F2396B3E000BA9616 /* SceneDelegate.swift */,
 				DC4391712396B3E000BA9616 /* ViewController.swift */,
 				DC4391732396B3E100BA9616 /* Main.storyboard */,
+				3D8D1D3B2396C3BD00BB8A18 /* Prathiph Messagerie.storyboard */,
 				DC4391812396C1B700BA9616 /* MapJasmine.storyboard */,
 				DC4391762396B3E200BA9616 /* Assets.xcassets */,
 				DC4391782396B3E200BA9616 /* LaunchScreen.storyboard */,
@@ -130,6 +133,7 @@
 			files = (
 				DC43917A2396B3E200BA9616 /* LaunchScreen.storyboard in Resources */,
 				DC4391822396C1B700BA9616 /* MapJasmine.storyboard in Resources */,
+				3D8D1D3C2396C3BD00BB8A18 /* Prathiph Messagerie.storyboard in Resources */,
 				DC4391772396B3E200BA9616 /* Assets.xcassets in Resources */,
 				DC4391752396B3E100BA9616 /* Main.storyboard in Resources */,
 			);
