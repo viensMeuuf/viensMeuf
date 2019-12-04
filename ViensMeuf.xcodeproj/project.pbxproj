@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D5FA2E52397B3C200967C99 /* eventDetailDonovan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FA2E42397B3C200967C99 /* eventDetailDonovan.storyboard */; };
+		3D5FA2E72397B43100967C99 /* ProfilSoheil.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FA2E62397B43100967C99 /* ProfilSoheil.storyboard */; };
+		3D5FA2E92397B49200967C99 /* FilterSportSohaib.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FA2E82397B49200967C99 /* FilterSportSohaib.storyboard */; };
+		3D5FA2EB2397B4FF00967C99 /* FilterCalendarSohaib.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FA2EA2397B4FF00967C99 /* FilterCalendarSohaib.storyboard */; };
 		3D8D1D3C2396C3BD00BB8A18 /* Prathiph Messagerie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8D1D3B2396C3BD00BB8A18 /* Prathiph Messagerie.storyboard */; };
 		DC43916E2396B3E000BA9616 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC43916D2396B3E000BA9616 /* AppDelegate.swift */; };
 		DC4391702396B3E000BA9616 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC43916F2396B3E000BA9616 /* SceneDelegate.swift */; };
@@ -18,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D5FA2E42397B3C200967C99 /* eventDetailDonovan.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = eventDetailDonovan.storyboard; sourceTree = "<group>"; };
+		3D5FA2E62397B43100967C99 /* ProfilSoheil.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfilSoheil.storyboard; sourceTree = "<group>"; };
+		3D5FA2E82397B49200967C99 /* FilterSportSohaib.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FilterSportSohaib.storyboard; sourceTree = "<group>"; };
+		3D5FA2EA2397B4FF00967C99 /* FilterCalendarSohaib.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FilterCalendarSohaib.storyboard; sourceTree = "<group>"; };
 		3D8D1D3B2396C3BD00BB8A18 /* Prathiph Messagerie.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Prathiph Messagerie.storyboard"; sourceTree = "<group>"; };
 		DC43916A2396B3E000BA9616 /* ViensMeuf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViensMeuf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC43916D2396B3E000BA9616 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,8 +73,12 @@
 				DC4391712396B3E000BA9616 /* ViewController.swift */,
 				DC4391732396B3E100BA9616 /* Main.storyboard */,
 				3D8D1D3B2396C3BD00BB8A18 /* Prathiph Messagerie.storyboard */,
+				3D5FA2E42397B3C200967C99 /* eventDetailDonovan.storyboard */,
 				DC4391812396C1B700BA9616 /* MapJasmine.storyboard */,
+				3D5FA2E62397B43100967C99 /* ProfilSoheil.storyboard */,
+				3D5FA2E82397B49200967C99 /* FilterSportSohaib.storyboard */,
 				DC4391762396B3E200BA9616 /* Assets.xcassets */,
+				3D5FA2EA2397B4FF00967C99 /* FilterCalendarSohaib.storyboard */,
 				DC4391782396B3E200BA9616 /* LaunchScreen.storyboard */,
 				DC43917B2396B3E200BA9616 /* Info.plist */,
 			);
@@ -131,11 +143,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D5FA2E72397B43100967C99 /* ProfilSoheil.storyboard in Resources */,
 				DC43917A2396B3E200BA9616 /* LaunchScreen.storyboard in Resources */,
 				DC4391822396C1B700BA9616 /* MapJasmine.storyboard in Resources */,
+				3D5FA2E52397B3C200967C99 /* eventDetailDonovan.storyboard in Resources */,
 				3D8D1D3C2396C3BD00BB8A18 /* Prathiph Messagerie.storyboard in Resources */,
 				DC4391772396B3E200BA9616 /* Assets.xcassets in Resources */,
 				DC4391752396B3E100BA9616 /* Main.storyboard in Resources */,
+				3D5FA2EB2397B4FF00967C99 /* FilterCalendarSohaib.storyboard in Resources */,
+				3D5FA2E92397B49200967C99 /* FilterSportSohaib.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

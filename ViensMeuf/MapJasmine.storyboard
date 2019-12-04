@@ -8,24 +8,9 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="Gg3-jE-sAU">
-            <objects>
-                <viewController id="y55-Ug-bVF" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="TUJ-Kp-pdy">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="zrn-Z2-tpU"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZjF-BU-nDD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="139" y="134"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="pwv-Bw-wPR">
             <objects>
-                <viewController id="nOm-sc-OwT" customClass="ViewController" customModule="MapMeuf" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="nOm-sc-OwT" customClass="ViewController" customModule="ViensMeuf" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xAf-YN-hmY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -66,7 +51,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lki-Kr-SUv" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
+            <point key="canvasLocation" x="372" y="147"/>
         </scene>
     </scenes>
     <resources>
