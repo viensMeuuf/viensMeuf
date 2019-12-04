@@ -77,8 +77,8 @@
 				DC4391812396C1B700BA9616 /* MapJasmine.storyboard */,
 				3D5FA2E62397B43100967C99 /* ProfilSoheil.storyboard */,
 				3D5FA2E82397B49200967C99 /* FilterSportSohaib.storyboard */,
-				DC4391762396B3E200BA9616 /* Assets.xcassets */,
 				3D5FA2EA2397B4FF00967C99 /* FilterCalendarSohaib.storyboard */,
+				DC4391762396B3E200BA9616 /* Assets.xcassets */,
 				DC4391782396B3E200BA9616 /* LaunchScreen.storyboard */,
 				DC43917B2396B3E200BA9616 /* Info.plist */,
 			);
