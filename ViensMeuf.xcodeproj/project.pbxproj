@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3D5FA2E52397B3C200967C99 /* eventDetailDonovan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FA2E42397B3C200967C99 /* eventDetailDonovan.storyboard */; };
-		3D5FA2E72397B43100967C99 /* ProfilSoheil.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FA2E62397B43100967C99 /* ProfilSoheil.storyboard */; };
+		3D5FA2E72397B43100967C99 /* ProfilParticipant.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FA2E62397B43100967C99 /* ProfilParticipant.storyboard */; };
 		3D5FA2EB2397B4FF00967C99 /* FilterCalendarSohaib.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FA2EA2397B4FF00967C99 /* FilterCalendarSohaib.storyboard */; };
 		3D8D1D3C2396C3BD00BB8A18 /* Prathiph Messagerie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8D1D3B2396C3BD00BB8A18 /* Prathiph Messagerie.storyboard */; };
 		DC43916E2396B3E000BA9616 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC43916D2396B3E000BA9616 /* AppDelegate.swift */; };
@@ -22,7 +22,7 @@
 
 /* Begin PBXFileReference section */
 		3D5FA2E42397B3C200967C99 /* eventDetailDonovan.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = eventDetailDonovan.storyboard; sourceTree = "<group>"; };
-		3D5FA2E62397B43100967C99 /* ProfilSoheil.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfilSoheil.storyboard; sourceTree = "<group>"; };
+		3D5FA2E62397B43100967C99 /* ProfilParticipant.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfilParticipant.storyboard; sourceTree = "<group>"; };
 		3D5FA2EA2397B4FF00967C99 /* FilterCalendarSohaib.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FilterCalendarSohaib.storyboard; sourceTree = "<group>"; };
 		3D8D1D3B2396C3BD00BB8A18 /* Prathiph Messagerie.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Prathiph Messagerie.storyboard"; sourceTree = "<group>"; };
 		DC43916A2396B3E000BA9616 /* ViensMeuf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViensMeuf.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,7 +73,7 @@
 				3D8D1D3B2396C3BD00BB8A18 /* Prathiph Messagerie.storyboard */,
 				3D5FA2E42397B3C200967C99 /* eventDetailDonovan.storyboard */,
 				DC4391812396C1B700BA9616 /* MapJasmine.storyboard */,
-				3D5FA2E62397B43100967C99 /* ProfilSoheil.storyboard */,
+				3D5FA2E62397B43100967C99 /* ProfilParticipant.storyboard */,
 				3D5FA2EA2397B4FF00967C99 /* FilterCalendarSohaib.storyboard */,
 				DC4391762396B3E200BA9616 /* Assets.xcassets */,
 				DC4391782396B3E200BA9616 /* LaunchScreen.storyboard */,
@@ -140,7 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D5FA2E72397B43100967C99 /* ProfilSoheil.storyboard in Resources */,
+				3D5FA2E72397B43100967C99 /* ProfilParticipant.storyboard in Resources */,
 				DC43917A2396B3E200BA9616 /* LaunchScreen.storyboard in Resources */,
 				DC4391822396C1B700BA9616 /* MapJasmine.storyboard in Resources */,
 				3D5FA2E52397B3C200967C99 /* eventDetailDonovan.storyboard in Resources */,
