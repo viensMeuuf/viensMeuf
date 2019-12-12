@@ -79,7 +79,7 @@
                                     <constraint firstAttribute="width" constant="200" id="PQh-Lv-QgF"/>
                                 </constraints>
                             </stackView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="J'aime le football,j'aime les sport en équipe." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ub9-zN-ShA">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="J'aime le football,j'aime les sports en équipe." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ub9-zN-ShA">
                                 <rect key="frame" x="20" y="630" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
