@@ -72,22 +72,6 @@
                                 <rect key="frame" x="35" y="573" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Capture d’écran 2019-12-04 à 11.18.35" translatesAutoresizingMaskIntoConstraints="NO" id="zYe-7I-Bxx">
-                                <rect key="frame" x="-19" y="95" width="130" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Capture d’écran 2019-12-04 à 11.16.39" translatesAutoresizingMaskIntoConstraints="NO" id="D6V-z4-JdJ">
-                                <rect key="frame" x="44" y="95" width="147" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Capture d’écran 2019-12-04 à 11.18.53" translatesAutoresizingMaskIntoConstraints="NO" id="Hue-iA-BNy">
-                                <rect key="frame" x="159" y="51" width="128" height="166"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Capture d’écran 2019-12-04 à 11.23.43" translatesAutoresizingMaskIntoConstraints="NO" id="e9j-53-5aH">
-                                <rect key="frame" x="235" y="95" width="189" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Water-Polo" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" background="Capture d’écran 2019-12-04 à 11.16.39" translatesAutoresizingMaskIntoConstraints="NO" id="xxz-Bu-qfh">
                                 <rect key="frame" x="155" y="234" width="101" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -104,6 +88,26 @@
                                     <tabBarItem title="Messagerie" image="person.3.fill" catalog="system" id="7wb-BZ-mmR"/>
                                 </items>
                             </tabBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Capture d’écran 2019-12-04 à 11.18.35" translatesAutoresizingMaskIntoConstraints="NO" id="iOZ-vB-pAH">
+                                <rect key="frame" x="0.0" y="88" width="84" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Capture d’écran 2019-12-04 à 11.23.43" translatesAutoresizingMaskIntoConstraints="NO" id="qRc-t1-P8v">
+                                <rect key="frame" x="79" y="88" width="84" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Capture d’écran 2019-12-04 à 11.18.53" translatesAutoresizingMaskIntoConstraints="NO" id="g45-qG-wsC">
+                                <rect key="frame" x="159" y="88" width="84" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Capture d’écran 2019-12-04 à 11.16.39" translatesAutoresizingMaskIntoConstraints="NO" id="uEG-D7-Prx">
+                                <rect key="frame" x="243" y="88" width="84" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Capture d’écran 2019-12-13 à 15.34.38" translatesAutoresizingMaskIntoConstraints="NO" id="goq-eJ-ud9">
+                                <rect key="frame" x="328" y="88" width="84" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="onA-RM-ApN"/>
@@ -150,6 +154,7 @@
         <image name="Capture d’écran 2019-12-04 à 11.18.35" width="482" height="514"/>
         <image name="Capture d’écran 2019-12-04 à 11.18.53" width="756" height="428"/>
         <image name="Capture d’écran 2019-12-04 à 11.23.43" width="820" height="800"/>
+        <image name="Capture d’écran 2019-12-13 à 15.34.38" width="1056" height="1208"/>
         <image name="icons8-basketball-30" width="30" height="30"/>
         <image name="icons8-soccer-ball-30" width="30" height="30"/>
         <image name="icons8-tennis-ball-30" width="30" height="30"/>
