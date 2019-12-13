@@ -7,6 +7,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--FilterCalendarSohaib-->
+        <scene sceneID="rgU-Xe-gmi">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FilterCalendarSohaib" id="a1H-KD-YxC" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="tZV-4m-9Fy"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RfC-X4-TbN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-588" y="1130"/>
+        </scene>
         <!--Map View Controller-->
         <scene sceneID="pwv-Bw-wPR">
             <objects>
@@ -26,45 +36,232 @@
                                 </items>
                             </tabBar>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="7DQ-DV-X68">
-                                <rect key="frame" x="20" y="96" width="374" height="708"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.79392174372889945" green="0.68959003945034336" blue="0.8122656685083024" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </mapView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="plus.rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="CqW-76-XZc">
-                                <rect key="frame" x="336" y="45" width="42" height="42"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a2c-ww-2oV" userLabel="calendarFilterButton">
+                                <rect key="frame" x="20" y="710" width="94" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" backgroundImage="calendar" catalog="system">
+                                    <color key="titleColor" red="0.97254901959999995" green="0.5568627451" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="C5B-Tv-DOc" kind="show" id="Ov4-TB-SmX"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c73-Fp-gNA">
+                                <rect key="frame" x="0.0" y="88" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" systemColor="tertiarySystemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="Title" id="512-cF-cXG">
+                                        <barButtonItem key="rightBarButtonItem" style="plain" id="fmM-Oj-0Av">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" id="9V9-Pa-jDB" userLabel="calendarFilterButton">
+                                                <rect key="frame" x="348" y="2" width="46" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <state key="normal" backgroundImage="plus.rectangle.fill" catalog="system">
+                                                    <color key="titleColor" red="0.97254901959999995" green="0.5568627451" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <searchBar contentMode="redraw" fixedFrame="YES" placeholder="Rechercher par sport" translatesAutoresizingMaskIntoConstraints="NO" id="9Ds-cr-5Lj">
+                                <rect key="frame" x="0.0" y="88" width="329" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="1" green="0.7482615829" blue="0.48362224139999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="fNI-Zv-RTb"/>
+                    </view>
+                    <connections>
+                        <outlet property="map" destination="7DQ-DV-X68" id="B2G-GH-dcL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lki-Kr-SUv" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="61" y="921"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="GSp-zH-krU">
+            <objects>
+                <viewController id="Uyg-yk-4q3" customClass="MapViewController" customModule="ViensMeuf" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QWi-Cf-u9t">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tabBar clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NZf-Vf-bkh">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.79392174370000002" green="0.68959003949999997" blue="0.81226566850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <items>
+                                    <tabBarItem title="Activité" image="sportscourt.fill" catalog="system" selectedImage="sportscourt.fill" id="43r-QP-Hjj"/>
+                                    <tabBarItem title="Profil" image="person.fill" catalog="system" id="cu6-jj-GXx"/>
+                                    <tabBarItem title="Messagerie" image="person.3.fill" catalog="system" id="dEz-Dk-TX8"/>
+                                </items>
+                            </tabBar>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="J7d-K6-wyj">
+                                <rect key="frame" x="20" y="96" width="374" height="708"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.79392174370000002" green="0.68959003949999997" blue="0.81226566850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </mapView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="plus.rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="CON-MX-wX2">
+                                <rect key="frame" x="292" y="247" width="42" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.79392174370000002" green="0.68959003949999997" blue="0.81226566850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zSW-7x-Ruc">
-                                <rect key="frame" x="54" y="49" width="222" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RIQ-KH-ft9">
+                                <rect key="frame" x="30" y="229" width="222" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.79392174370000002" green="0.68959003949999997" blue="0.81226566850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="calendar" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="7FK-8t-UpB">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="calendar" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="odG-y3-6fH">
                                 <rect key="frame" x="30" y="719" width="73" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1Y-Fb-Em4">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Gb-k1-Lag">
                                 <rect key="frame" x="30" y="710" width="73" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bex-Nb-ZJM">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Title" id="wlN-za-dUC"/>
+                                </items>
+                            </navigationBar>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zSW-7x-Ruc">
+                                <rect key="frame" x="56" y="300" width="222" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.79392174370000002" green="0.68959003949999997" blue="0.81226566850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="fNI-Zv-RTb"/>
+                        <viewLayoutGuide key="safeArea" id="bGn-P2-WL8"/>
                     </view>
                     <connections>
-                        <outlet property="CalendarFilterbutton" destination="g1Y-Fb-Em4" id="U4O-tl-xvb"/>
-                        <outlet property="map" destination="7DQ-DV-X68" id="B2G-GH-dcL"/>
+                        <outlet property="CalendarFilterbutton" destination="7Gb-k1-Lag" id="1oW-hV-Xub"/>
+                        <outlet property="map" destination="J7d-K6-wyj" id="rgB-Ug-jIg"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Lki-Kr-SUv" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nV8-Pa-K3l" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-507" y="-243"/>
+            <point key="canvasLocation" x="1667" y="-178"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7xy-Rw-5B8">
+            <objects>
+                <viewController id="Tqc-Fo-2yw" customClass="ViewController" customModule="SearchingBySport" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5dv-Bx-zYh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ead-zR-ESe" userLabel="search Container View">
+                                <rect key="frame" x="0.0" y="38" width="414" height="34"/>
+                                <color key="backgroundColor" red="0.94180013500000004" green="0.77396549390000002" blue="0.29540075999999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJ8-zk-c7O">
+                                <rect key="frame" x="162.5" y="832" width="89" height="30"/>
+                                <state key="normal" title="Restore Data"/>
+                                <connections>
+                                    <action selector="restoreData:" destination="Tqc-Fo-2yw" eventType="touchUpInside" id="wwj-H2-Z4N"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qUn-O9-O5a">
+                                <rect key="frame" x="0.0" y="80" width="414" height="726"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="726" id="mAw-4y-6jl"/>
+                                </constraints>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="8qb-1A-JH3">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8qb-1A-JH3" id="e6U-zP-cF5">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ead-zR-ESe" firstAttribute="trailing" secondItem="fWF-qN-vgg" secondAttribute="trailing" id="2DU-3E-QOD"/>
+                            <constraint firstItem="OJ8-zk-c7O" firstAttribute="centerX" secondItem="5dv-Bx-zYh" secondAttribute="centerX" id="4gU-Lm-edW"/>
+                            <constraint firstItem="OJ8-zk-c7O" firstAttribute="top" secondItem="qUn-O9-O5a" secondAttribute="bottom" constant="26" id="AL7-tB-ijt"/>
+                            <constraint firstItem="qUn-O9-O5a" firstAttribute="leading" secondItem="fWF-qN-vgg" secondAttribute="leading" id="NHs-BY-SkO"/>
+                            <constraint firstItem="qUn-O9-O5a" firstAttribute="firstBaseline" secondItem="ead-zR-ESe" secondAttribute="baseline" constant="8" symbolType="layoutAnchor" id="STw-ED-bzr"/>
+                            <constraint firstItem="fWF-qN-vgg" firstAttribute="top" secondItem="ead-zR-ESe" secondAttribute="top" constant="6" id="Unw-59-G7I"/>
+                            <constraint firstItem="OJ8-zk-c7O" firstAttribute="centerX" secondItem="5dv-Bx-zYh" secondAttribute="centerX" id="VZ1-Ba-Mgf"/>
+                            <constraint firstItem="OJ8-zk-c7O" firstAttribute="centerX" secondItem="5dv-Bx-zYh" secondAttribute="centerX" id="ZIT-ze-McW"/>
+                            <constraint firstItem="ead-zR-ESe" firstAttribute="leading" secondItem="fWF-qN-vgg" secondAttribute="leading" id="h5s-H8-93T"/>
+                            <constraint firstItem="OJ8-zk-c7O" firstAttribute="bottom" secondItem="fWF-qN-vgg" secondAttribute="bottom" id="icb-YG-ZZS"/>
+                            <constraint firstItem="qUn-O9-O5a" firstAttribute="trailing" secondItem="fWF-qN-vgg" secondAttribute="trailing" id="nGF-Qc-McV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fWF-qN-vgg"/>
+                    </view>
+                    <connections>
+                        <outlet property="searchContainerView" destination="ead-zR-ESe" id="6Fm-Ed-AKN"/>
+                        <outlet property="tableView" destination="qUn-O9-O5a" id="PNd-kn-R7V"/>
+                        <segue destination="a1B-Uo-6bO" kind="show" identifier="showSelected" id="Kgw-7K-dKn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SAY-Ko-Z2C" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="989.85507246376824" y="921.42857142857133"/>
+        </scene>
+        <!--Selected Element Research View Controller-->
+        <scene sceneID="NVU-5G-nO3">
+            <objects>
+                <viewController id="a1B-Uo-6bO" customClass="SelectedElementResearchViewController" customModule="SearchingBySport" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cij-5H-XXs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" red="0.97254901959999995" green="0.5568627451" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="bgy-NG-qMj"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="wkO-wj-0sx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sd0-Y8-rV6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1805.7971014492755" y="884.59821428571422"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hQ7-wK-Llx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="C5B-Tv-DOc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="Ncf-wA-k8n"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Uhz-JQ-PPK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="a1H-KD-YxC" kind="relationship" relationship="rootViewController" id="YMO-Ff-pwO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jLa-DI-Vlw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1331.8840579710145" y="1013.8392857142857"/>
         </scene>
     </scenes>
     <resources>

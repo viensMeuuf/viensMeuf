@@ -25,14 +25,20 @@
                                     <tabBarItem title="Messagerie" image="person.3.fill" catalog="system" id="IYB-Km-aMF"/>
                                 </items>
                             </tabBar>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="jos-z1-N64">
+                                <rect key="frame" x="0.0" y="306" width="414" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96620899438858032" green="0.76325454976415841" blue="0.00083618275671195144" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.97254901959999995" green="0.5568627451" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </datePicker>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="1" green="0.75211765289822075" blue="0.10799122983067999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="z5i-jM-38u"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8cZ-VQ-pdr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7" y="141"/>
+            <point key="canvasLocation" x="-7.2463768115942031" y="140.625"/>
         </scene>
     </scenes>
     <resources>
