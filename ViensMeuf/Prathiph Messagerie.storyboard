@@ -94,6 +94,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jeK-Yo-6bm">
+                                <rect key="frame" x="-2" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Activité" image="sportscourt.fill" catalog="system" selectedImage="sportscourt.fill" id="SDb-wz-OHe"/>
+                                    <tabBarItem title="Profil" image="person.fill" catalog="system" id="X4Q-pU-toS"/>
+                                    <tabBarItem title="Messagerie" image="person.3.fill" catalog="system" id="7wb-BZ-mmR"/>
+                                </items>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="onA-RM-ApN"/>
@@ -143,5 +153,8 @@
         <image name="icons8-basketball-30" width="30" height="30"/>
         <image name="icons8-soccer-ball-30" width="30" height="30"/>
         <image name="icons8-tennis-ball-30" width="30" height="30"/>
+        <image name="person.3.fill" catalog="system" width="71" height="34"/>
+        <image name="person.fill" catalog="system" width="64" height="60"/>
+        <image name="sportscourt.fill" catalog="system" width="64" height="40"/>
     </resources>
 </document>
