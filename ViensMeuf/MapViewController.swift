@@ -12,14 +12,18 @@ import CoreLocation
 
 
 class MapViewController: UIViewController {
+    @IBOutlet weak var searchBarBySport: UISearchBar!
+    
+    @IBOutlet weak var eventCreationButton: UIButton!
 
-    @IBOutlet weak var CréationÉvenments: UIButton!
-    @IBOutlet weak var RechercheParSport: UITextField!
     @IBOutlet weak var map: MKMapView!
+    
     @IBOutlet weak var CalendarFilterbutton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
 }
 
+
 }
+
