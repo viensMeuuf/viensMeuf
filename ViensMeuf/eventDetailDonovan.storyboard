@@ -14,18 +14,6 @@
                     <view key="view" contentMode="scaleToFill" id="YXU-q5-vBn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C8E-C4-BO2">
-                                <rect key="frame" x="0.0" y="782" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Activité" image="sportscourt.fill" catalog="system" selectedImage="sportscourt.fill" id="teV-78-V3n"/>
-                                    <tabBarItem title="Profil" image="person.fill" catalog="system" id="xr5-ja-m2u"/>
-                                    <tabBarItem title="Messagerie" image="person.3.fill" catalog="system" id="IYN-h4-dTS"/>
-                                </items>
-                            </tabBar>
-                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="q4O-e6-yzV"/>
                     </view>
@@ -35,9 +23,4 @@
             <point key="canvasLocation" x="55" y="27"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="person.3.fill" catalog="system" width="71" height="34"/>
-        <image name="person.fill" catalog="system" width="64" height="60"/>
-        <image name="sportscourt.fill" catalog="system" width="64" height="40"/>
-    </resources>
 </document>
