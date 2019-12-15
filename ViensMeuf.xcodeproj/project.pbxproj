@@ -22,6 +22,8 @@
 		DCAC337923A4493700F4C7F7 /* EventCreation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAC337823A4493700F4C7F7 /* EventCreation.storyboard */; };
 		DCAC337D23A46C7100F4C7F7 /* SearchingBySportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC337C23A46C7100F4C7F7 /* SearchingBySportViewController.swift */; };
 		DCAC337F23A46C9F00F4C7F7 /* SearchingBySport.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAC337E23A46C9F00F4C7F7 /* SearchingBySport.storyboard */; };
+		DCC22D4D23A6F0AA00A476C4 /* myAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC22D4C23A6F0AA00A476C4 /* myAnnotation.swift */; };
+		DCC22D4F23A6F28E00A476C4 /* myAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC22D4E23A6F28E00A476C4 /* myAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		DCAC337823A4493700F4C7F7 /* EventCreation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EventCreation.storyboard; sourceTree = "<group>"; };
 		DCAC337C23A46C7100F4C7F7 /* SearchingBySportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingBySportViewController.swift; sourceTree = "<group>"; };
 		DCAC337E23A46C9F00F4C7F7 /* SearchingBySport.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchingBySport.storyboard; sourceTree = "<group>"; };
+		DCC22D4C23A6F0AA00A476C4 /* myAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAnnotation.swift; sourceTree = "<group>"; };
+		DCC22D4E23A6F28E00A476C4 /* myAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				DCAC337823A4493700F4C7F7 /* EventCreation.storyboard */,
 				3D5FA2E42397B3C200967C99 /* eventDetailDonovan.storyboard */,
 				4DE210C223A25A5B0000AB3B /* MapViewController.swift */,
+				DCC22D4E23A6F28E00A476C4 /* myAnnotationView.swift */,
+				DCC22D4C23A6F0AA00A476C4 /* myAnnotation.swift */,
 				3D8D1D3B2396C3BD00BB8A18 /* Prathiph Messagerie.storyboard */,
 				3D5FA2E62397B43100967C99 /* UserProfile.storyboard */,
 				DC4391762396B3E200BA9616 /* Assets.xcassets */,
@@ -174,7 +180,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DE210C323A25A5B0000AB3B /* MapViewController.swift in Sources */,
+				DCC22D4F23A6F28E00A476C4 /* myAnnotationView.swift in Sources */,
 				DCAC337D23A46C7100F4C7F7 /* SearchingBySportViewController.swift in Sources */,
+				DCC22D4D23A6F0AA00A476C4 /* myAnnotation.swift in Sources */,
 				DC43916E2396B3E000BA9616 /* AppDelegate.swift in Sources */,
 				DC4391702396B3E000BA9616 /* SceneDelegate.swift in Sources */,
 			);
