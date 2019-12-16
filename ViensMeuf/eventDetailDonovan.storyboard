@@ -1,96 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QkA-v0-P3g">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lhX-MS-Nv5">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Detail de L'Event-->
-        <scene sceneID="cPa-a8-TPe">
+        <scene sceneID="Q7y-9U-0nm">
             <objects>
-                <viewController storyboardIdentifier="EventDetailsViewController" id="dlW-Xr-cyo" customClass="EventDetailsViewController" customModule="ViensMeuf" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" tag="1" contentMode="scaleToFill" id="YXU-q5-vBn">
+                <viewController id="7kI-Wv-aR4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Gea-gf-sxT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="basket event avatar" translatesAutoresizingMaskIntoConstraints="NO" id="PYv-76-yx0">
-                                <rect key="frame" x="-157" y="88" width="739" height="365"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="18/01 : Chat Basketball a Partir de 17h" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="298" translatesAutoresizingMaskIntoConstraints="NO" id="UQB-bg-Cjh">
-                                <rect key="frame" x="60" y="453" width="308" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <accessibility key="accessibilityConfiguration" identifier="myLabel"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                                <size key="shadowOffset" width="1" height="-1"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;POUR IMAGINER LA TETE DE SON BOSS!&quot;" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="329" translatesAutoresizingMaskIntoConstraints="NO" id="lFa-bk-Srw">
-                                <rect key="frame" x="26" y="488" width="332" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="17 Rue Dupierre 75009 Paris" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rzN-Ml-Pl3">
-                                <rect key="frame" x="93" y="509" width="228" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqM-8v-W4v">
-                                <rect key="frame" x="80" y="538" width="241" height="209"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Salut les filles c'est Margaux!j'organise une petite compet' de chat basketball pour s'amuser !j'ai reservé le terrain a partir de 17h juste prevoir une bouteille d'eau,tous les niveaux sont les bienvenus on peut aller se prendre un verrre apres la seance !                 A tutti les filles 🖤                                      Margaux</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tx0-8U-PIr">
-                                <rect key="frame" x="130" y="755" width="141" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.56470588235294117" green="0.93333333333333335" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="PARTICIPER">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b4E-rF-Hjk">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="BqJ-G7-Cmz">
+                                        <rect key="frame" x="10" y="0.0" width="394" height="583.5"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="basket event avatar" translatesAutoresizingMaskIntoConstraints="NO" id="MZO-Hk-q2C">
+                                                <rect key="frame" x="0.0" y="0.0" width="394" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="tJl-4l-d5T"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18/01 : Chat  BasketBall a Partir de 17h" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIw-sx-eOf">
+                                                <rect key="frame" x="0.0" y="234" width="394" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;POUR IMAGINER LA TETE DE SON BOSS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tts-S1-idY">
+                                                <rect key="frame" x="0.0" y="288.5" width="394" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17 Rue Dupierre 75009 Paris" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C3j-J8-lqq">
+                                                <rect key="frame" x="0.0" y="343" width="394" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ac-0D-0F0">
+                                                <rect key="frame" x="0.0" y="397.5" width="394" height="122"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <mutableString key="text">Salut les filles c'est Margaux!j'organise une petite compet' de chat basketball pour s'amuser !j'ai reservé le terrain a partir de 17h juste prevoir une bouteille d'eau,tous les niveaux sont les bienvenus on peut aller se prendre un verrre apres la seance ! A tutti les filles 💚                                     Margaux</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" systemColor="tertiarySystemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPQ-bj-HdI">
+                                                <rect key="frame" x="0.0" y="553.5" width="394" height="30"/>
+                                                <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="PARTICIPER">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="BqJ-G7-Cmz" firstAttribute="bottom" secondItem="QJ2-Ej-2qX" secondAttribute="bottom" id="41D-2e-buF"/>
+                                    <constraint firstItem="BqJ-G7-Cmz" firstAttribute="width" secondItem="noD-B4-Nqa" secondAttribute="width" constant="-20" id="aAK-Md-L6v"/>
+                                    <constraint firstItem="QJ2-Ej-2qX" firstAttribute="top" secondItem="BqJ-G7-Cmz" secondAttribute="top" id="l9Y-jP-7Ua"/>
+                                    <constraint firstItem="BqJ-G7-Cmz" firstAttribute="trailing" secondItem="QJ2-Ej-2qX" secondAttribute="trailing" constant="10" id="nFc-rD-q7T"/>
+                                    <constraint firstItem="BqJ-G7-Cmz" firstAttribute="leading" secondItem="QJ2-Ej-2qX" secondAttribute="leading" constant="10" id="pv5-mw-Q8G"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="QJ2-Ej-2qX"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="noD-B4-Nqa"/>
+                            </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="q4O-e6-yzV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="b4E-rF-Hjk" firstAttribute="bottom" secondItem="Gea-gf-sxT" secondAttribute="bottom" id="DYA-kF-jO2"/>
+                            <constraint firstItem="b4E-rF-Hjk" firstAttribute="leading" secondItem="Gea-gf-sxT" secondAttribute="leading" id="Lpv-iP-Sdp"/>
+                            <constraint firstAttribute="top" secondItem="b4E-rF-Hjk" secondAttribute="top" id="P0z-Yu-sS6"/>
+                            <constraint firstAttribute="trailing" secondItem="b4E-rF-Hjk" secondAttribute="trailing" id="Wc4-DH-f8f"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Detail de L'Event" id="A1r-Nl-oCU"/>
-                    <connections>
-                        <outlet property="eventDescription" destination="lFa-bk-Srw" id="2Td-QX-721"/>
-                        <outlet property="myEventAvatar" destination="PYv-76-yx0" id="VGC-3T-k6N"/>
-                        <outlet property="myLabel" destination="UQB-bg-Cjh" id="X6c-h5-AD0"/>
-                    </connections>
+                    <navigationItem key="navigationItem" title="Detail de L'Event" id="Ku0-CT-RtS"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PnX-gc-d3Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GBK-kt-bhF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="931.88405797101461" y="10.714285714285714"/>
+            <point key="canvasLocation" x="3521.739130434783" y="-796.20535714285711"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="Na8-bF-5WC">
+        <scene sceneID="1h1-9C-oiD">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QkA-v0-P3g" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lhX-MS-Nv5" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eoy-6C-Jz5">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LKa-1s-SWK">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="dlW-Xr-cyo" kind="relationship" relationship="rootViewController" id="KGJ-qm-OyQ"/>
+                        <segue destination="7kI-Wv-aR4" kind="relationship" relationship="rootViewController" id="SF2-gh-LTk"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7J0-0l-4lB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sCd-Ei-9Pt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53.623188405797109" y="26.785714285714285"/>
+            <point key="canvasLocation" x="2611.594202898551" y="-796.20535714285711"/>
         </scene>
     </scenes>
     <resources>
