@@ -24,6 +24,7 @@
 		DCAC337F23A46C9F00F4C7F7 /* SearchingBySport.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAC337E23A46C9F00F4C7F7 /* SearchingBySport.storyboard */; };
 		DCC22D4D23A6F0AA00A476C4 /* myAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC22D4C23A6F0AA00A476C4 /* myAnnotation.swift */; };
 		DCC22D4F23A6F28E00A476C4 /* myAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC22D4E23A6F28E00A476C4 /* myAnnotationView.swift */; };
+		DCF8CA3C23A7C83600F52C05 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF8CA3B23A7C83600F52C05 /* Event.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		DCAC337E23A46C9F00F4C7F7 /* SearchingBySport.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchingBySport.storyboard; sourceTree = "<group>"; };
 		DCC22D4C23A6F0AA00A476C4 /* myAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAnnotation.swift; sourceTree = "<group>"; };
 		DCC22D4E23A6F28E00A476C4 /* myAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAnnotationView.swift; sourceTree = "<group>"; };
+		DCF8CA3B23A7C83600F52C05 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				DC4391782396B3E200BA9616 /* LaunchScreen.storyboard */,
 				DC43917B2396B3E200BA9616 /* Info.plist */,
 				3D5FA2E82397B49200967C99 /* FilterSportSohaib.storyboard */,
+				DCF8CA3B23A7C83600F52C05 /* Event.swift */,
 			);
 			path = ViensMeuf;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				DCAC337D23A46C7100F4C7F7 /* SearchingBySportViewController.swift in Sources */,
 				DCC22D4D23A6F0AA00A476C4 /* myAnnotation.swift in Sources */,
 				DC43916E2396B3E000BA9616 /* AppDelegate.swift in Sources */,
+				DCF8CA3C23A7C83600F52C05 /* Event.swift in Sources */,
 				DC4391702396B3E000BA9616 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

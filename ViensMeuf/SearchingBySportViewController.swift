@@ -12,69 +12,12 @@ class ViewController: UIViewController {
     
     var selection: String?
 
-    enum Gender {
-        case male, female
-    }
-    
-    enum XpCategory {
-        case debutante, amatrice, aguerrie, professionnelle
-    }
-
-    enum MotivationCategory {
-        case fun, serious
-    }
-    
-
-    struct User {
-        var gender: Gender
-        var age: Int?
-        var mailAdress: String // /!\ HAVE TO accept only x...xx@x...x.xx
-        var telephoneNumber: Int?
-        var firstname: String
-        var lastname: String?
-        var favoriteSport: String? /// pas forcément une string?
-        var description: String?
-        var avatar: UIImage?
-        var coach: Bool?
-        var xpCategory: XpCategory
-        var motivationCategory: MotivationCategory
-        var listEvent = ["titleEvent"]
-        
-    }
-
-    // MARK: - Event
-
-
-
-    //      ⇩ 22 SPORTS
-    enum SportCategory {
-        case football, rugby, pingpong, basketball, swimming, bowling, judo, martialArts, yoga, baseball, volleyball, handball, running, cycling, climbing, karting, rollerblade, horseRiding, boxing, tennis, chess, gymnastic, dance
-    }
-
-
-    struct Event {
-        var sportCategory: SportCategory
-        var motivationCategory: MotivationCategory // j'utilise la même var pour Event que pour User
-        
-        var creator: User?
-        var eventGroup: [User]?
-        //    var eventGroup: Array d'objets User ???
-        //     eventConversationGroup = eventGroup
-        var place: NSMapTableOptions? // ???????
-        var date: Date? //
-        //    var hour: Hour ????
-        var avatarEvent: UIImage?
-        var titleEvent: String
-
-    }
-    
-    
+  
 //    MARK: 1 INSTANCE USER ET 1 INSTANCE EVENT
     
     
     var user1 = User(gender: .female, mailAdress: "yoplait@yop.co", firstname: "Meriam", xpCategory: .aguerrie, motivationCategory: .fun)
     
-    var footballEvent = Event(sportCategory: .football, motivationCategory: .fun, titleEvent: "Football")
 
     
     
@@ -83,7 +26,9 @@ class ViewController: UIViewController {
     
     var searchController: UISearchController!
     
-    var eventList: [String] = ["football", "rugby", "pingpong", "basketball", "swimming", "bowling", "judo", "martialArts", "yoga", "baseball", "volleyball", "handball", "running", "cycling", "climbing", "karting", "rollerblade", "horseRiding", "boxing", "tennis", "chess", "gymnastic", "dance"]
+//    var eventList: [String] = ["football", "rugby", "pingpong", "basketball", "swimming", "bowling", "judo", "martialArts", "yoga", "baseball", "volleyball", "handball", "running", "cycling", "climbing", "karting", "rollerblade", "horseRiding", "boxing", "tennis", "chess", "gymnastic", "dance"]
+    
+    var eventList: [Event] = [Event(creator: nil, eventGroup: nil, date: nil, titleEvent: "football")]
     
     var currentDataSource: [String] = []
     
@@ -96,17 +41,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        addSportToDataSource(sportCount: 25, sport: "Running")
-        addSportToDataSource(sportCount: 20, sport: "Yoga")
-        addSportToDataSource(sportCount: 30, sport: "Boxing")
+//        addSportToDataSource(sportCount: 25, sport: "Running")
+//        addSportToDataSource(sportCount: 20, sport: "Yoga")
+//        addSportToDataSource(sportCount: 30, sport: "Boxing")
 
         //    car results envoyés sur le même écran =
         tableView.delegate = self
         tableView.dataSource = self
         //!\ comment envoyer vers second écran ??? voir exo continents ??
     
-
-        currentDataSource = eventList
+    
+        currentDataSource = listKeywords()
         
         searchController = UISearchController(searchResultsController: nil)
         
@@ -118,16 +63,23 @@ class ViewController: UIViewController {
 
     }
     
-    func addSportToDataSource(sportCount: Int, sport: String) {
-        for index in 1...sportCount {
-            eventList.append("\(sport) #\(index)")
+    func listKeywords() -> [String] {
+        var result = [String]()
+        for event in eventList {
+            result.append(event.titleEvent)
         }
+        return result
     }
+    
+//    func addSportToDataSource(sportCount: Int, sport: String) {
+//        for index in 1...sportCount {
+//            eventList.append("\(sport) #\(index)")
+//        }
+//    }
     
     func filterCurrentDataSource(searchTerm: String) {
         
         if searchTerm.count > 0 {
-            currentDataSource = eventList
             
             let filteredResults = currentDataSource.filter { $0.replacingOccurrences(of: " ", with: "").lowercased().contains(searchTerm.replacingOccurrences(of: " ", with: "").lowercased())
                 
@@ -141,7 +93,7 @@ class ViewController: UIViewController {
     
     func restoreCurrentDataSource() {
         
-        currentDataSource = eventList
+        currentDataSource = listKeywords()
         tableView.reloadData()
     }
     
