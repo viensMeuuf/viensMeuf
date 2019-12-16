@@ -11,6 +11,7 @@
 		3D5FA2E72397B43100967C99 /* UserProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FA2E62397B43100967C99 /* UserProfile.storyboard */; };
 		3D5FA2E92397B49200967C99 /* FilterSportSohaib.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FA2E82397B49200967C99 /* FilterSportSohaib.storyboard */; };
 		3D5FA2EB2397B4FF00967C99 /* FilterCalendarSohaib.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FA2EA2397B4FF00967C99 /* FilterCalendarSohaib.storyboard */; };
+		3D86632E23A7B65800E5A8BE /* EventDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D86632D23A7B65800E5A8BE /* EventDetailsViewController.swift */; };
 		3D8D1D3C2396C3BD00BB8A18 /* Prathiph Messagerie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8D1D3B2396C3BD00BB8A18 /* Prathiph Messagerie.storyboard */; };
 		4DE210C323A25A5B0000AB3B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE210C223A25A5B0000AB3B /* MapViewController.swift */; };
 		DC43916E2396B3E000BA9616 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC43916D2396B3E000BA9616 /* AppDelegate.swift */; };
@@ -32,6 +33,7 @@
 		3D5FA2E62397B43100967C99 /* UserProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserProfile.storyboard; sourceTree = "<group>"; };
 		3D5FA2E82397B49200967C99 /* FilterSportSohaib.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FilterSportSohaib.storyboard; sourceTree = "<group>"; };
 		3D5FA2EA2397B4FF00967C99 /* FilterCalendarSohaib.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FilterCalendarSohaib.storyboard; sourceTree = "<group>"; };
+		3D86632D23A7B65800E5A8BE /* EventDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsViewController.swift; sourceTree = "<group>"; };
 		3D8D1D3B2396C3BD00BB8A18 /* Prathiph Messagerie.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Prathiph Messagerie.storyboard"; sourceTree = "<group>"; };
 		4DE210C223A25A5B0000AB3B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		DC43916A2396B3E000BA9616 /* ViensMeuf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViensMeuf.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +91,7 @@
 				3D5FA2EA2397B4FF00967C99 /* FilterCalendarSohaib.storyboard */,
 				DCAC337823A4493700F4C7F7 /* EventCreation.storyboard */,
 				3D5FA2E42397B3C200967C99 /* eventDetailDonovan.storyboard */,
+				3D86632D23A7B65800E5A8BE /* EventDetailsViewController.swift */,
 				4DE210C223A25A5B0000AB3B /* MapViewController.swift */,
 				DCC22D4E23A6F28E00A476C4 /* myAnnotationView.swift */,
 				DCC22D4C23A6F0AA00A476C4 /* myAnnotation.swift */,
@@ -183,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DE210C323A25A5B0000AB3B /* MapViewController.swift in Sources */,
+				3D86632E23A7B65800E5A8BE /* EventDetailsViewController.swift in Sources */,
 				DCC22D4F23A6F28E00A476C4 /* myAnnotationView.swift in Sources */,
 				DCAC337D23A46C7100F4C7F7 /* SearchingBySportViewController.swift in Sources */,
 				DCC22D4D23A6F0AA00A476C4 /* myAnnotation.swift in Sources */,
