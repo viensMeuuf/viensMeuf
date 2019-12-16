@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="WsD-To-8e2">
             <objects>
-                <viewController id="xNa-Lx-kCI" customClass="ViewController" customModule="SearchingBySport" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="xNa-Lx-kCI" customClass="ViewController" customModule="ViensMeuf" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DIo-xH-Z9X">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -45,6 +45,9 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <accessibility key="accessibilityConfiguration" identifier="cell"/>
+                                        <connections>
+                                            <segue destination="mUt-Vc-eUj" kind="show" identifier="showSelected" id="Q8s-dE-Nub"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -69,29 +72,21 @@
                     <connections>
                         <outlet property="searchContainerView" destination="oxf-Sf-5oe" id="dei-gj-c4h"/>
                         <outlet property="tableView" destination="7pa-Je-BDH" id="nYa-kM-hT0"/>
-                        <segue destination="YEY-Bb-9FL" kind="show" identifier="showSelected" id="Pj8-C3-r8H"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="78x-FB-LiF" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="989.85507246376824" y="921.42857142857133"/>
+            <point key="canvasLocation" x="801" y="970"/>
         </scene>
-        <!--Selected Element Research View Controller-->
-        <scene sceneID="Lx5-u5-aEd">
+        <!--eventDetailDonovan-->
+        <scene sceneID="mbH-hz-7X0">
             <objects>
-                <viewController id="YEY-Bb-9FL" customClass="SelectedElementResearchViewController" customModule="SearchingBySport" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zx6-cq-yTd">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <color key="tintColor" red="0.97254901959999995" green="0.5568627451" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="u6K-FF-tAo"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="uFj-BJ-wKE"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ETR-RP-hrn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardIdentifier="EventDetailsViewController" storyboardName="eventDetailDonovan" id="mUt-Vc-eUj" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="QXW-W1-Bvs"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N0y-VU-Cz9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1729" y="921"/>
+            <point key="canvasLocation" x="1473" y="913"/>
         </scene>
     </scenes>
 </document>
