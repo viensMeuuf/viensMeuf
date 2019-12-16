@@ -96,7 +96,7 @@
         <scene sceneID="MR5-Tx-bZ6">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="k3R-OZ-eN8" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Viens" selectedImage="icons8-acrobatics-30" id="92T-li-aSd">
+                    <tabBarItem key="tabBarItem" title="Viens" image="icons8-acrobatics-30" selectedImage="icons8-acrobatics-30" id="92T-li-aSd">
                         <color key="badgeColor" red="0.97254901959999995" green="0.5568627451" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                     <toolbarItems/>
@@ -117,7 +117,7 @@
         <scene sceneID="x3W-zg-UrU">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="N3i-84-rwt" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profil" selectedImage="person.fill" catalog="system" id="UDF-YK-Vly">
+                    <tabBarItem key="tabBarItem" title="Profil" image="person.fill" catalog="system" selectedImage="person.fill" id="UDF-YK-Vly">
                         <color key="badgeColor" red="0.97254901959999995" green="0.5568627451" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                     <toolbarItems/>
@@ -138,7 +138,7 @@
         <scene sceneID="upw-Td-yX7">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WTo-uA-Wbk" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Messagerie" selectedImage="person.3.fill" catalog="system" id="1NI-o3-Qou">
+                    <tabBarItem key="tabBarItem" title="Messagerie" image="person.3.fill" catalog="system" selectedImage="person.3.fill" id="1NI-o3-Qou">
                         <color key="badgeColor" red="0.97254901959999995" green="0.5568627451" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                     <toolbarItems/>
