@@ -55,16 +55,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h9t-c3-KkC">
-                                <rect key="frame" x="0.0" y="767" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Activité" image="sportscourt.fill" catalog="system" selectedImage="sportscourt.fill" id="DhJ-3i-pbq"/>
-                                    <tabBarItem title="Profil" image="person.fill" catalog="system" id="c1L-vU-hKl"/>
-                                    <tabBarItem title="Messagerie" image="person.3.fill" catalog="system" id="Ev0-hw-MH1"/>
-                                </items>
-                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="e1M-vS-Zjm"/>
@@ -77,8 +67,5 @@
     </scenes>
     <resources>
         <image name="Capture d’écran 2019-12-04 à 11.16.39" width="514" height="598"/>
-        <image name="person.3.fill" catalog="system" width="71" height="34"/>
-        <image name="person.fill" catalog="system" width="64" height="60"/>
-        <image name="sportscourt.fill" catalog="system" width="64" height="40"/>
     </resources>
 </document>
