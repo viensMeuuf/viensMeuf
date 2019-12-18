@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--MapJasmine-->
+        <!--SearchingBySport-->
         <scene sceneID="xxe-Na-NBh">
             <objects>
-                <viewControllerPlaceholder storyboardName="MapJasmine" id="lfo-Dz-6gN" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="SearchingBySport" id="lfo-Dz-6gN" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="BKG-NY-vkj"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vhr-JO-Jco" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

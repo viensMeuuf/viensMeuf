@@ -17,6 +17,8 @@ class EventCreationViewController: UIViewController {
     
     
     @IBAction func publicate(_ sender: Any) {
+
+        eventList.append(Event(creator: nil, eventGroup: nil, date: Date(), titleEvent: "title", place: "test"))
     }
     
     func listKeywords() -> [String] {
@@ -43,7 +45,6 @@ class EventCreationViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         
-//        eventList.append(Event(creator: <#T##User?#>, eventGroup: <#T##[User]?#>, date: <#T##Date?#>, titleEvent: <#T##String#>))
     }
     
 

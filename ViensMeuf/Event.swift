@@ -49,24 +49,33 @@ enum SportCategory {
     case football, rugby, pingpong, basketball, swimming, bowling, judo, martialArts, yoga, baseball, volleyball, handball, running, cycling, climbing, karting, rollerblade, horseRiding, boxing, tennis, chess, gymnastic, dance
 }
 
-
+import CoreLocation
 
 struct Event {
-//    var sportCategory: SportCategory
-//    var motivationCategory: MotivationCategory // j'utilise la même var pour Event que pour User
+    //    var sportCategory: SportCategory
+    //    var motivationCategory: MotivationCategory // j'utilise la même var pour Event que pour User
     
     var creator: User?
     var eventGroup: [User]?
     //    var eventGroup: Array d'objets User ???
     //     eventConversationGroup = eventGroup
-//    var place: NSMapTableOptions? // ???????
+    //    var place: NSMapTableOptions? // ???????
     var date: Date? //
     //    var hour: Hour ????
-//    var avatarEvent: UIImage?
+    //    var avatarEvent: UIImage?
     var titleEvent: String
     
     var place: String
+    var coordinate: CLLocationCoordinate2D?
     
+    func annotation() -> MyAnnotation {
+        if let coordinate = coordinate {
+            return MyAnnotation(title: titleEvent, locationName: place, discipline: titleEvent, coordinate: coordinate)
+        } else {
+            return MyAnnotation(title: titleEvent, locationName: place, discipline: titleEvent, coordinate: CLLocationCoordinate2D(latitude: 44, longitude: 22))
+            
+        }
+    }
 }
 
 
