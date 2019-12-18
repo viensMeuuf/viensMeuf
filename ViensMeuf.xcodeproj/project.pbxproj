@@ -11,6 +11,7 @@
 		3D5FA2E72397B43100967C99 /* UserProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FA2E62397B43100967C99 /* UserProfile.storyboard */; };
 		3D5FA2E92397B49200967C99 /* FilterSportSohaib.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FA2E82397B49200967C99 /* FilterSportSohaib.storyboard */; };
 		3D5FA2EB2397B4FF00967C99 /* FilterCalendarSohaib.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FA2EA2397B4FF00967C99 /* FilterCalendarSohaib.storyboard */; };
+		3D86632E23A7B65800E5A8BE /* EventDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D86632D23A7B65800E5A8BE /* EventDetailsViewController.swift */; };
 		3D8D1D3C2396C3BD00BB8A18 /* Prathiph Messagerie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8D1D3B2396C3BD00BB8A18 /* Prathiph Messagerie.storyboard */; };
 		4DE210C323A25A5B0000AB3B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE210C223A25A5B0000AB3B /* MapViewController.swift */; };
 		DC43916E2396B3E000BA9616 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC43916D2396B3E000BA9616 /* AppDelegate.swift */; };
@@ -19,11 +20,16 @@
 		DC4391772396B3E200BA9616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4391762396B3E200BA9616 /* Assets.xcassets */; };
 		DC43917A2396B3E200BA9616 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4391782396B3E200BA9616 /* LaunchScreen.storyboard */; };
 		DC4391822396C1B700BA9616 /* MapJasmine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4391812396C1B700BA9616 /* MapJasmine.storyboard */; };
+		DC92803D23A998BE005323D2 /* PickerViewActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC92803C23A998BE005323D2 /* PickerViewActivity.swift */; };
+		DC92803F23A99D2E005323D2 /* EventDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC92803E23A99D2E005323D2 /* EventDatePicker.swift */; };
+		DC92804123A9AE42005323D2 /* EventAdress.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC92804023A9AE42005323D2 /* EventAdress.swift */; };
 		DCAC337923A4493700F4C7F7 /* EventCreation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAC337823A4493700F4C7F7 /* EventCreation.storyboard */; };
 		DCAC337D23A46C7100F4C7F7 /* SearchingBySportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC337C23A46C7100F4C7F7 /* SearchingBySportViewController.swift */; };
 		DCAC337F23A46C9F00F4C7F7 /* SearchingBySport.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAC337E23A46C9F00F4C7F7 /* SearchingBySport.storyboard */; };
 		DCC22D4D23A6F0AA00A476C4 /* myAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC22D4C23A6F0AA00A476C4 /* myAnnotation.swift */; };
 		DCC22D4F23A6F28E00A476C4 /* myAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC22D4E23A6F28E00A476C4 /* myAnnotationView.swift */; };
+		DCF8CA3C23A7C83600F52C05 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF8CA3B23A7C83600F52C05 /* Event.swift */; };
+		DCF8CA3E23A7E16500F52C05 /* EventCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF8CA3D23A7E16500F52C05 /* EventCreationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +37,7 @@
 		3D5FA2E62397B43100967C99 /* UserProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserProfile.storyboard; sourceTree = "<group>"; };
 		3D5FA2E82397B49200967C99 /* FilterSportSohaib.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FilterSportSohaib.storyboard; sourceTree = "<group>"; };
 		3D5FA2EA2397B4FF00967C99 /* FilterCalendarSohaib.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FilterCalendarSohaib.storyboard; sourceTree = "<group>"; };
+		3D86632D23A7B65800E5A8BE /* EventDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsViewController.swift; sourceTree = "<group>"; };
 		3D8D1D3B2396C3BD00BB8A18 /* Prathiph Messagerie.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Prathiph Messagerie.storyboard"; sourceTree = "<group>"; };
 		4DE210C223A25A5B0000AB3B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		DC43916A2396B3E000BA9616 /* ViensMeuf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViensMeuf.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,11 +48,16 @@
 		DC4391792396B3E200BA9616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC43917B2396B3E200BA9616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC4391812396C1B700BA9616 /* MapJasmine.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapJasmine.storyboard; sourceTree = "<group>"; };
+		DC92803C23A998BE005323D2 /* PickerViewActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewActivity.swift; sourceTree = "<group>"; };
+		DC92803E23A99D2E005323D2 /* EventDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDatePicker.swift; sourceTree = "<group>"; };
+		DC92804023A9AE42005323D2 /* EventAdress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAdress.swift; sourceTree = "<group>"; };
 		DCAC337823A4493700F4C7F7 /* EventCreation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EventCreation.storyboard; sourceTree = "<group>"; };
 		DCAC337C23A46C7100F4C7F7 /* SearchingBySportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingBySportViewController.swift; sourceTree = "<group>"; };
 		DCAC337E23A46C9F00F4C7F7 /* SearchingBySport.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchingBySport.storyboard; sourceTree = "<group>"; };
 		DCC22D4C23A6F0AA00A476C4 /* myAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAnnotation.swift; sourceTree = "<group>"; };
 		DCC22D4E23A6F28E00A476C4 /* myAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAnnotationView.swift; sourceTree = "<group>"; };
+		DCF8CA3B23A7C83600F52C05 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		DCF8CA3D23A7E16500F52C05 /* EventCreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCreationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +98,12 @@
 				DCAC337E23A46C9F00F4C7F7 /* SearchingBySport.storyboard */,
 				3D5FA2EA2397B4FF00967C99 /* FilterCalendarSohaib.storyboard */,
 				DCAC337823A4493700F4C7F7 /* EventCreation.storyboard */,
+				DC92804023A9AE42005323D2 /* EventAdress.swift */,
+				DC92803C23A998BE005323D2 /* PickerViewActivity.swift */,
+				DC92803E23A99D2E005323D2 /* EventDatePicker.swift */,
+				DCF8CA3D23A7E16500F52C05 /* EventCreationViewController.swift */,
 				3D5FA2E42397B3C200967C99 /* eventDetailDonovan.storyboard */,
+				3D86632D23A7B65800E5A8BE /* EventDetailsViewController.swift */,
 				4DE210C223A25A5B0000AB3B /* MapViewController.swift */,
 				DCC22D4E23A6F28E00A476C4 /* myAnnotationView.swift */,
 				DCC22D4C23A6F0AA00A476C4 /* myAnnotation.swift */,
@@ -96,6 +113,7 @@
 				DC4391782396B3E200BA9616 /* LaunchScreen.storyboard */,
 				DC43917B2396B3E200BA9616 /* Info.plist */,
 				3D5FA2E82397B49200967C99 /* FilterSportSohaib.storyboard */,
+				DCF8CA3B23A7C83600F52C05 /* Event.swift */,
 			);
 			path = ViensMeuf;
 			sourceTree = "<group>";
@@ -179,11 +197,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCF8CA3E23A7E16500F52C05 /* EventCreationViewController.swift in Sources */,
 				4DE210C323A25A5B0000AB3B /* MapViewController.swift in Sources */,
+				3D86632E23A7B65800E5A8BE /* EventDetailsViewController.swift in Sources */,
 				DCC22D4F23A6F28E00A476C4 /* myAnnotationView.swift in Sources */,
+				DC92804123A9AE42005323D2 /* EventAdress.swift in Sources */,
 				DCAC337D23A46C7100F4C7F7 /* SearchingBySportViewController.swift in Sources */,
+				DC92803F23A99D2E005323D2 /* EventDatePicker.swift in Sources */,
 				DCC22D4D23A6F0AA00A476C4 /* myAnnotation.swift in Sources */,
 				DC43916E2396B3E000BA9616 /* AppDelegate.swift in Sources */,
+				DC92803D23A998BE005323D2 /* PickerViewActivity.swift in Sources */,
+				DCF8CA3C23A7C83600F52C05 /* Event.swift in Sources */,
 				DC4391702396B3E000BA9616 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
