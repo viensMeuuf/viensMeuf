@@ -10,10 +10,33 @@ import UIKit
 
 class EventDetailsViewController: UIViewController {
 
+    @IBOutlet weak var participateButton: UIButton!
+    
+    
     @IBOutlet weak var myLabel: UILabel!
     
     @IBOutlet weak var eventDescription: UILabel!
     @IBOutlet weak var myEventAvatar: UIImageView!
+    
+    
+    
+
+//        bouton Participer
+//
+//        @IBAction func participate(_ sender: Any) {
+//        }
+//
+//        func listKeywords() -> [String] {
+//        var result = [String]()
+//        for user in eventGroup {
+//            result.append(user.eventGroup)
+//        }
+//        return result
+//    }
+
+
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -23,6 +46,8 @@ class EventDetailsViewController: UIViewController {
         
         myEventAvatar.layer.borderWidth = 3.0;
         myEventAvatar.layer.borderColor = UIColor.green.cgColor
+        
+        
         
         
         // Do any additional setup after loading the view.

@@ -3,13 +3,14 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Detail de L'Event-->
         <scene sceneID="Q7y-9U-0nm">
             <objects>
-                <viewController id="7kI-Wv-aR4" sceneMemberID="viewController">
+                <viewController id="7kI-Wv-aR4" customClass="EventDetailsViewController" customModule="ViensMeuf" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Gea-gf-sxT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -47,7 +48,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ac-0D-0F0">
                                                 <rect key="frame" x="0.0" y="397.5" width="394" height="122"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <mutableString key="text">Salut les filles c'est Margaux!j'organise une petite compet' de chat basketball pour s'amuser !j'ai reservé le terrain a partir de 17h juste prevoir une bouteille d'eau,tous les niveaux sont les bienvenus on peut aller se prendre un verrre apres la seance ! A tutti les filles 💚                                     Margaux</mutableString>
+                                                <string key="text">Salut les filles c'est Margaux!j'organise une petite compet' de chat basketball pour s'amuser !j'ai reservé le terrain a partir de 17h juste prevoir une bouteille d'eau,tous les niveaux sont les bienvenus on peut aller se prendre un verrre apres la seance ! A tutti les filles 💚                                     Margaux</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" systemColor="tertiarySystemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -58,6 +59,11 @@
                                                 <state key="normal" title="PARTICIPER">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="addUserToEventGroup:" destination="IsP-2h-dM4" eventType="touchUpInside" id="Ciy-S3-ypy"/>
+                                                    <action selector="addUserToEventGroup:" destination="7kI-Wv-aR4" eventType="touchUpInside" id="TsL-Ob-wRo"/>
+                                                    <action selector="publicate:" destination="IsP-2h-dM4" eventType="touchUpInside" id="wjD-UO-koc"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -81,10 +87,18 @@
                             <constraint firstAttribute="top" secondItem="b4E-rF-Hjk" secondAttribute="top" id="P0z-Yu-sS6"/>
                             <constraint firstAttribute="trailing" secondItem="b4E-rF-Hjk" secondAttribute="trailing" id="Wc4-DH-f8f"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="JBW-cr-IbE"/>
                     </view>
                     <navigationItem key="navigationItem" title="Detail de L'Event" id="Ku0-CT-RtS"/>
+                    <connections>
+                        <outlet property="eventDescription" destination="9Ac-0D-0F0" id="pOV-vg-u4u"/>
+                        <outlet property="myEventAvatar" destination="MZO-Hk-q2C" id="asf-Tn-iSR"/>
+                        <outlet property="myLabel" destination="HIw-sx-eOf" id="PNv-I7-7V2"/>
+                        <outlet property="participateButton" destination="cPQ-bj-HdI" id="wM2-Xh-ISh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GBK-kt-bhF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="IsP-2h-dM4" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3521.739130434783" y="-796.20535714285711"/>
         </scene>

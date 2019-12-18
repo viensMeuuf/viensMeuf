@@ -8,6 +8,9 @@
 
 import UIKit
 
+var eventList: [Event] = [Event(creator: nil, eventGroup: nil, date: nil, titleEvent: "Football", place: "Parc de Sceaux"), Event(creator: nil, eventGroup: nil, date: nil, titleEvent: "Running", place: "Parc Monceau")]
+
+
 class ViewController: UIViewController {
     
     var selection: String?
@@ -28,7 +31,6 @@ class ViewController: UIViewController {
     
 //    var eventList: [String] = ["football", "rugby", "pingpong", "basketball", "swimming", "bowling", "judo", "martialArts", "yoga", "baseball", "volleyball", "handball", "running", "cycling", "climbing", "karting", "rollerblade", "horseRiding", "boxing", "tennis", "chess", "gymnastic", "dance"]
     
-    var eventList: [Event] = [Event(creator: nil, eventGroup: nil, date: nil, titleEvent: "football")]
     
     var currentDataSource: [String] = []
     
@@ -71,6 +73,9 @@ class ViewController: UIViewController {
         return result
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        tableView.reloadData()
+    }
 //    func addSportToDataSource(sportCount: Int, sport: String) {
 //        for index in 1...sportCount {
 //            eventList.append("\(sport) #\(index)")

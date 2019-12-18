@@ -65,4 +65,10 @@ struct Event {
 //    var avatarEvent: UIImage?
     var titleEvent: String
     
+    var place: String
+    
 }
+
+
+//let event1 = Event(date: "20-12-2019", titleEvent: "Footing", place: "Parce de Sceaux")
+
