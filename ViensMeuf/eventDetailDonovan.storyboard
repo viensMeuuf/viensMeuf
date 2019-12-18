@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -26,7 +27,7 @@
                                                     <constraint firstAttribute="height" constant="200" id="tJl-4l-d5T"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18/01 : Chat  BasketBall a Partir de 17h" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIw-sx-eOf">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18/01 : Chat  BasketBall à partir de 17h" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIw-sx-eOf">
                                                 <rect key="frame" x="0.0" y="234" width="394" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -81,6 +82,7 @@
                             <constraint firstAttribute="top" secondItem="b4E-rF-Hjk" secondAttribute="top" id="P0z-Yu-sS6"/>
                             <constraint firstAttribute="trailing" secondItem="b4E-rF-Hjk" secondAttribute="trailing" id="Wc4-DH-f8f"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="oJq-qi-qMy"/>
                     </view>
                     <navigationItem key="navigationItem" title="Detail de L'Event" id="Ku0-CT-RtS"/>
                 </viewController>
