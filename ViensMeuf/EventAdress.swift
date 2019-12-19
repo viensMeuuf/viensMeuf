@@ -10,13 +10,49 @@ import UIKit
 
 class EventAdress: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    @IBOutlet weak var locationNameTextField: UITextField!
+    
+    @IBOutlet weak var numberLocationTextField: UITextField!
+    
+    
+    @IBOutlet weak var streetLocationTextField: UITextField!
+    
+    
+    @IBOutlet weak var postalCodeLocationTextField: UITextField!
+    
+    @IBOutlet weak var cityLocationTextField: UITextField!
+    
+    
+    func sendLove(){
+        print("love")
     }
     
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//
+//        // Do any additional setup after loading the view.
+//        sendLove()
+//    }
+//
+//
+//    //        adressFromSegue
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        sendLove()
 
+        let segueIdentifier = segue.identifier
+        if segueIdentifier == "adressFromSegue" {
+            print("functional")
+            if let destination = segue.destination as? EventCreationViewController {
+                destination.origin = ""
+                }
+        }
+    }
+    
+    
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 

@@ -10,6 +10,12 @@ import UIKit
 
 class EventCreationViewController: UIViewController {
     
+    // segue test
+    var origin = ""
+
+    
+    
+    @IBOutlet weak var eventTitleTextField: UITextField!
     
 //bouton Publier
     
@@ -17,9 +23,10 @@ class EventCreationViewController: UIViewController {
     
     
     @IBAction func publicate(_ sender: Any) {
-
         eventList.append(Event(creator: nil, eventGroup: nil, date: Date(), titleEvent: "title", place: "test"))
     }
+    
+    
     
     func listKeywords() -> [String] {
     var result = [String]()
@@ -31,6 +38,14 @@ class EventCreationViewController: UIViewController {
 //    quand on clique sur ce bouton
 //    je veux que cette func s'exécute
     
+    
+    
+    func sendLove(){
+        print("love")
+    }
+    
+    
+    
 
  
 //    PickerView
@@ -39,11 +54,10 @@ class EventCreationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        
-
         // Do any additional setup after loading the view.
         
+        
+    sendLove()
         
     }
     

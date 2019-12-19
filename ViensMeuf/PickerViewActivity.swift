@@ -30,7 +30,11 @@ class PickerViewActivity: UIViewController, UIPickerViewDataSource, UIPickerView
         
         let sportListToDisplay = sportList[row]
         return sportListToDisplay
-
+    }
+    
+    
+    func sendLove(){
+        print("love")
     }
     
     
@@ -62,10 +66,10 @@ class PickerViewActivity: UIViewController, UIPickerViewDataSource, UIPickerView
 
         // Do any additional setup after loading the view.
         
-        
-        
         eventActivity.dataSource = self
         eventActivity.delegate = self
+        
+        sendLove()
     }
     
 

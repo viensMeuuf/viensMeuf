@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Title-->
+        <!--Activités-->
         <scene sceneID="WsD-To-8e2">
             <objects>
                 <viewController id="xNa-Lx-kCI" customClass="ViewController" customModule="ViensMeuf" customModuleProvider="target" sceneMemberID="viewController">
@@ -48,12 +48,21 @@
                         <viewLayoutGuide key="safeArea" id="R8g-2n-XMJ"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Title" id="AVv-10-K2P">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="wCJ-qO-cAf">
-                            <connections>
-                                <segue destination="hCU-I7-4Ma" kind="show" id="Wcc-wY-mCg"/>
-                            </connections>
-                        </barButtonItem>
+                    <navigationItem key="navigationItem" title="Activités" id="AVv-10-K2P">
+                        <rightBarButtonItems>
+                            <barButtonItem systemItem="add" id="wCJ-qO-cAf">
+                                <color key="tintColor" red="0.56470588239999997" green="1" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <segue destination="hCU-I7-4Ma" kind="show" id="Wcc-wY-mCg"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem image="calendar" catalog="system" id="UOI-22-dN2">
+                                <color key="tintColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <segue destination="5cX-e0-Xw9" kind="show" id="PBL-HB-uDJ"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
@@ -65,6 +74,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="78x-FB-LiF" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="800.00000000000011" y="969.64285714285711"/>
+        </scene>
+        <!--FilterCalendarSohaib-->
+        <scene sceneID="oOa-1K-MK8">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FilterCalendarSohaib" id="5cX-e0-Xw9" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ktp-JA-csX"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Fi-cJ-sop" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1342" y="675"/>
         </scene>
         <!--EventCreation-->
         <scene sceneID="Z5E-jI-iqn">
@@ -87,4 +106,7 @@
             <point key="canvasLocation" x="1474" y="970"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="calendar" catalog="system" width="64" height="52"/>
+    </resources>
 </document>

@@ -12,12 +12,33 @@ class EventDatePicker: UIViewController {
 
 //    @IBOutlet weak var datePicker: UIDatePicker!
 
-
+//    @IBOutlet weak var datePicker: UIDatePicker!
+    
+    
+    func sendLove(){
+        print("love")
+    }
+    
+    func sendPeace(){
+        print("peace")
+    }
+    
+    func sendExcuses(){
+        print("Sorry, not yet")
+    }
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
 //         Do any additional setup after loading the view.
 
+        sendLove()
+        sendPeace()
+        sendExcuses()
+        
     }
 
     /*
